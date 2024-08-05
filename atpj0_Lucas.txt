@@ -1,0 +1,3 @@
+Nome da loja: Super Game Store
+Link para o repositório do github: https://github.com/Lucas-Feitoza-Castro/GameStore.git
+Link para o site da loja:https://lucas-feitoza-castro.github.io/GameStore/

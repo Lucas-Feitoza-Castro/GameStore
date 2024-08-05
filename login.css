@@ -1,0 +1,41 @@
+html {
+    background-color: #005792;
+}
+#tudo{
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+#login {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    padding: 10px 10px 10px 10px;
+    height: 435px;
+    margin-right: 10px;
+}
+
+#cadastro {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    padding: 10px 10px 10px 10px;
+    height: 640px;
+}
+
+#Facebook{
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+#Google{
+    font-size: 50px;
+}
+
+h1{
+    color: #FD5F00;
+}
+
+h2{
+    color: #FD5F00;
+}

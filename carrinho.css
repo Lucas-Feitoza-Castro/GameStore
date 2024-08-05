@@ -1,0 +1,74 @@
+html {
+    background-color: #005792;
+}
+
+#tudo {
+    display: flex;
+    width: 1200px;
+}
+
+h1 {
+    color: #FD5F00;
+}
+
+#car_esquerdo {
+    background-color: #F6F6E9;
+    width: 900px;
+    margin-right: 10px;
+}
+
+#cabecalho {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: solid #13334C;
+}
+
+.produto {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #13334C;
+}
+
+.descricao {
+    font-size: smaller;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+}
+
+#car_direito {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+#subtotal {
+    border-bottom: solid #13334C;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#frete {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#total {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

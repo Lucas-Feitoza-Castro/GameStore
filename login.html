@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/d2ac4b2b22.js" crossorigin="anonymous"></script>
+    <title>login</title>
+</head>
+
+<body>
+    <h1>Login do cliente</h1>
+    <div id="tudo">
+        <div id="login">
+            <h2>Já é cadastrado?</h2>
+            <p>Então entre com seus dados de login e senha.</p>
+            <form action="" method="post">
+                <p> seu e-mail: </p>
+                <input type="email" id="Email" placeholder="Ex:joaodasilva@gmail.com">
+
+                <p>sua senha:</p>
+                <input type="password">
+            </form>
+            <p></p>
+            <a href="">Esqueceu sua senha?</a>
+            <p></p>
+            <input type="button" value="Entrar" id="Entrar">
+            <h2>Entrar com sua conta do Facebook ou Google</h2>
+            <i class="fa-brands fa-facebook" id="Facebook"></i>
+            <i class="fa-brands fa-google" id="Google"></i>
+        </div>
+
+        <div id="cadastro">
+            <h2>Ainda não é cadastrado no site?</h2>
+            <p>Faça agora mesmo seu cadastro, é simples e rápido.</p>
+            <form action="" method="post">
+                <p>seu e-mail:</p>
+                <input type="email" placeholder="Ex:joaodasilva@gmail.com">
+
+                <p>sua senha:</p>
+                <input type="password">
+
+                <p> CPF:</p>
+                <input type="number" placeholder="Ex:123.456.789.10">
+
+                <p> seu nome: </p>
+                <input type="text">
+
+                <p>data de nascimento: </p>
+                <input type="date" placeholder="Ex:01/01/1999">
+
+                <p>sexo: </p>
+                <label for="M">Masculino:</label>
+                <input id="M" name="sexo" type="radio">
+                <label for="F">Feminino</label>
+                <input id="F" name="sexo" type="radio">
+
+                <p>Telefone:</p>
+                <input type="tel" placeholder="Ex:(55)99999-9999">
+                <p></p>
+                <input type="button" value="Cadastrar">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
