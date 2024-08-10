@@ -1,0 +1,40 @@
+html{
+    background-color: #005792;
+}
+
+h1{
+    color: #FD5F00;
+}
+
+h2{
+    color: #FD5F00;
+}
+
+p{
+    color: #13334C;
+}
+#conteudo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #F6F6E9;
+}
+img{
+    width: 120px;
+    height: 100px;
+}
+#Desenvolvimento{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #F6F6E9;
+}
+
+.Desenvolvedor{
+    display: flex;
+   flex-wrap: nowrap;
+}
+
+.cont_dev{
+    margin-left: 10px;
+}
