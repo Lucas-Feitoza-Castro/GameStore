@@ -36,13 +36,23 @@ header {
     height: 200px;
     justify-content: space-around;
 }
-
+#banner{
+    width: 1199px;
+    height: 150px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
 .produtos {
     background-color: #F6F6E9;
     border: solid #FD5F00;
+    width: 1200px;
+    margin-top: 20px;
 }
 .linha{
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 .game {
     width: 250px;
