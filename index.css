@@ -37,6 +37,25 @@ header {
     justify-content: space-around;
 }
 
+.produtos {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+}
+.linha{
+    display: flex;
+}
+.game {
+    width: 250px;
+    height: 200px;
+}
+
+.produto {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Pagamento {
     display: flex;
     flex-direction: column;
@@ -87,10 +106,11 @@ header {
     height: 80px;
 }
 
-.icons{
+.icons {
     display: flex;
     align-content: space-around;
 }
+
 .logo2 {
     width: 200px;
     height: 60px;
