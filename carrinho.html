@@ -10,82 +10,207 @@
 </head>
 
 <body>
-    <h1>meu carrinho</h1>
-    <div id=tudo>
-        <div id="car_esquerdo">
-            <div id="cabecalho">
-                <p>produto</p>
-                <p>quantidade</p>
-                <p>remover</p>
-                <p>preço</p>
+    <div id="tudao">
+        <header>
+
+            <img src="logo.svg" alt="logo_loja" class="logo">
+            <form action="" method="post">
+                <input type="search" placeholder="Pesquisar produtos...">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <button type="submit" class="f4" id="carrinho"><i class="fa-solid fa-cart-shopping"></i><a
+                    href="carrinho.html">carrinho</a></button>
+            <button type="submit" class="f5" id="conta"><i class="fa-solid fa-user"></i><a href="login.html">minha
+                    conta</a></button>
+
+        </header>
+        <div id="title">
+            <h1>meu carrinho</h1>
+        </div>
+        <div id=tudo>
+            <div id="car_esquerdo">
+                <div id="cabecalho">
+                    <p>produto</p>
+                    <p>quantidade</p>
+                    <p>remover</p>
+                    <p>preço</p>
+                </div>
+
+                <div class="produto">
+
+                    <img src="/projeto_web-main/Produtos/mario_wonder.webp" alt="super_mario_wonder">
+                    <div class="descricao">
+                        <h3>Produto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="quantidade">
+                        <input type="number">
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                    <h3>R$362,49</h3>
+                </div>
+
+
+                <div class="produto">
+                    <img src="/projeto_web-main/Produtos/red_dead_2.webp" alt="red_dead_redemption_2_ps4">
+                    <div class="descricao">
+                        <h3>Produto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+
+                        </p>
+                    </div>
+                    <div class="quantidade">
+                        <input type="number">
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                    <h3>R$144,69</h3>
+                </div>
+
+
+                <div class="produto">
+                    <img src="/projeto_web-main/Produtos/gta_V_ps5.webp" alt="grand_theft_auto_V_ps5">
+                    <div class="descricao">
+                        <h3>Produto</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="quantidade">
+                        <input type="number">
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                    <h3>R$146,24</h3>
+                </div>
             </div>
 
-            <div class="produto">
-                <img src="/projeto_web-main/Produtos/mario_wonder.webp" alt="super_mario_wonder">
-                <div class="descricao">
-                    <h3>Produto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
-                </div>
-                <div class="quantidade">
-                    <input type="number">
-                </div>
-                <i class="fa-solid fa-trash"></i>
-                <h3>R$362,49</h3>
-            </div>
 
-
-            <div class="produto">
-                <img src="/projeto_web-main/Produtos/red_dead_2.webp" alt="red_dead_redemption_2_ps4">
-                <div class="descricao">
-                    <h3>Produto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-
-                    </p>
+            <div id="car_direito">
+                <h2>resumo do pedido</h2>
+                <div id="subtotal">
+                    <p>subtotal(2 produtos)</p>
+                    <p>R$ 999,99</p>
                 </div>
-                <div class="quantidade">
-                    <input type="number">
+                <div id="frete">
+                    <p>frete</p>
+                    <p>R$ 999,99</p>
                 </div>
-                <i class="fa-solid fa-trash"></i>
-                <h3>R$144,69</h3>
-            </div>
-
-
-            <div class="produto">
-                <img src="/projeto_web-main/Produtos/gta_V_ps5.webp" alt="grand_theft_auto_V_ps5">
-                <div class="descricao">
-                    <h3>Produto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    </p>
+                <div id="total">
+                    <h3>Total</h3>
+                    <p>R$ 999,99</p>
                 </div>
-                <div class="quantidade">
-                    <input type="number">
-                </div>
-                <i class="fa-solid fa-trash"></i>
-                <h3>R$146,24</h3>
+                <p></p>
+                <input type="button" value="continuar">
+                <p></p>
+                <p>possui cupom ou vale? você poderá usá-los na etapa de pagamento.</p>
             </div>
         </div>
 
+        <footer>
 
-        <div id="car_direito">
-            <h2>resumo do pedido</h2>
-            <div id="subtotal">
-                <p>subtotal(2 produtos)</p>
-                <p>R$ 999,99</p>
+            <div class="rodape">
+
+                <ul>
+                    <h3>Sub Rodape</h3>
+                    <li><a href="sobre.html">Sobre a loja</a></li>
+                    <li><a href="adm.html">Dashboard do administrador</a></li>
+                    <li><a href="cadastro_produto.html">Formulário de cadastro de produto</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                </ul>
+
+                <ul>
+                    <h3>Sub Rodape</h3>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                </ul>
+
+                <ul>
+                    <h3>Sub Rodape</h3>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                </ul>
+
+                <ul>
+                    <h3>Sub Rodape</h3>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                </ul>
+
+                <ul>
+                    <h3>Sub Rodape</h3>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                </ul>
+
+
+
+                <ul>
+                    <h3>Sub Rodape</h3>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                    <li><a href="">Link Rodape</a></li>
+                </ul>
+
             </div>
-            <div id="frete">
-                <p>frete</p>
-                <p>R$ 999,99</p>
+
+            <div class="rodape2">
+                <div class="Pagamento">
+                    <h3>Formas de Pagamento</h3>
+                    <div class="pag2">
+                        <img src="/assets_footer/footer/cartoes/amazon.png" alt="cartao_amazon" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/americanexpress.png" alt="cartao_american_express"
+                            class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/delta.png" alt="cartao_delta" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/discover.png" alt="cartao_discover" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/ebay.png" alt="cartao_ebay" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/maestro.png" alt="cartao_maestro" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/mastercard.png" alt="cartao_mastercard" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/paypal.png" alt="cartao_paypal" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/solo.png" alt="cartao_solo" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/stripe.png" alt="cartao_stripe" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/switch.png" alt="cartao_switch" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/visa.png" alt="cartao_visa" class="cartoes">
+                        <img src="/assets_footer/footer/cartoes/visaelectron.png" alt="cartao_visaelectron"
+                            class="cartoes">
+                    </div>
+                </div>
+
+                <div class="Certificados">
+                    <h3>Certificados de Segurança</h3>
+                    <div class="cer2">
+                        <img src="/assets_footer/footer/selos/reclame_aqui.jpg" alt="reclame_aqui" class="Segurança">
+                        <img src="/assets_footer/footer/selos/safebrowser.png" alt="safebrowser" class="Segurança">
+                        <img src="/assets_footer/footer/selos/seal.png" alt="seal" class="Segurança">
+                    </div>
+                </div>
             </div>
-            <div id="total">
-                <h3>Total</h3>
-                <p>R$ 999,99</p>
+
+            <div class="rodape3">
+                <img src="logo.svg" alt="logo2" class="logo2">
+                <div class="icones">
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
             </div>
-            <p></p>
-            <input type="button" value="continuar">
-            <p></p>
-            <p>possui cupom ou vale? você poderá usá-los na etapa de pagamento.</p>
-        </div>
+        </footer>
     </div>
 </body>
 
