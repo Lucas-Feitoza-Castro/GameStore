@@ -12,6 +12,16 @@ header {
     align-items: center;
 }
 
+#sub_cabecalho{
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .logo {
     width: 240px;
     height: 80px;
