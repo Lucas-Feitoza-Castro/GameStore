@@ -10,57 +10,94 @@
 </head>
 
 <body>
-    <header>
 
-        <img src="logo.svg" alt="logo_loja" class="logo">
-        <form action="" method="post">
-            <input type="search" placeholder="Pesquisar produtos...">
-            <button type="submit">Pesquisar</button>
-        </form>
-        <button type="submit" class="f4" id="carrinho"><i class="fa-solid fa-cart-shopping"></i><a
-                href="carrinho.html">carrinho</a></button>
-        <button type="submit" class="f5" id="conta"><i class="fa-solid fa-user"></i><a href="login.html">minha
-                conta</a></button>
+    <div id="tudo">
+        <header>
 
-    </header>
+            <img src="logo.svg" alt="logo_loja" class="logo">
+            <form action="" method="post">
+                <input type="search" placeholder="Pesquisar produtos...">
+                <button type="submit">Pesquisar</button>
+            </form>
+            <button type="submit" class="f4" id="carrinho"><i class="fa-solid fa-cart-shopping"></i><a
+                    href="carrinho.html">carrinho</a></button>
+            <button type="submit" class="f5" id="conta"><i class="fa-solid fa-user"></i><a href="login.html">minha
+                    conta</a></button>
 
-    <nav>
-        <div id="alt">
-            <h1>Alteração</h1>
-            <p>novo produto</p>
-            <p>todos produtos</p>
+        </header>
+        <div id="d1">
+            <nav>
+                <div id="alt">
+                    <h1>Alteração</h1>
+                    <p>novo produto</p>
+                    <p>todos produtos</p>
+                </div>
+                <h1>Relatórios</h1>
+                <p>relatório 1</p>
+                <p>relatório 2</p>
+                <p>relatório 3</p>
+            </nav>
+
+            <section>
+                <h1 id="pd">Produtos Cadastrados</h1>
+                <div>
+
+                    <div id="cabecalho">
+                        <h2>produto</h2>
+                        <h2>estoque</h2>
+                        <h2>preço</h2>
+                        <h2>editar</h2>
+                    </div>
+
+                    <div class="produto">
+                        <div class="prod2">
+                            <img src="/Produtos/nintendo_switch_lite_azul.jpg" alt="nintendo_switch_lite_azul"
+                                id="prod">
+                            <div class="descricao">
+                                <h3>Produto</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            </div>
+                        </div>
+                        <input type="number">
+                        <h3>R$362,49</h3>
+                        <button type="submit">Editar</button>
+                        <button type="submit">Deletar</button>
+                    </div>
+                </div>
+
+                <div class="produto">
+                    <div class="prod2">
+                        <img src="/Produtos/nintendo_switch_lite_azul.jpg" alt="nintendo_switch_lite_azul" id="prod">
+                        <div class="descricao">
+                            <h3>Produto</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                    <input type="number">
+                    <h3>R$362,49</h3>
+                    <button type="submit">Editar</button>
+                    <button type="submit">Deletar</button>
+                </div>
         </div>
-        <h1>Relatórios</h1>
-        <p>relatório 1</p>
-        <p>relatório 2</p>
-        <p>relatório 3</p>
-    </nav>
 
-    <section>
-        <h1>Produtos Cadastrados</h1>
-        <div>
-            <h2>produto</h2>
-            <div>
-                <h2>estoque</h2>
-                <h2>preço</h2>
-                <h2>editar</h2>
-            </div>
-
-            <div class="produto">
+        <div class="produto">
+            <div class="prod2">
                 <img src="/Produtos/nintendo_switch_lite_azul.jpg" alt="nintendo_switch_lite_azul" id="prod">
                 <div class="descricao">
                     <h3>Produto</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 </div>
-                <div>
-                    <input type="number">
-                </div>
-                <i class="fa-solid fa-trash"></i>
-                <h3>R$362,49</h3>
             </div>
+            <input type="number">
+            <h3>R$362,49</h3>
+            <button type="submit">Editar</button>
+            <button type="submit">Deletar</button>
         </div>
-    </section>
+    </div>
 
+
+    </section>
+    </div>
     <footer>
 
         <div class="rodape">
@@ -165,6 +202,8 @@
             </div>
         </div>
     </footer>
+    
+    </div>
 </body>
 
 </html>
