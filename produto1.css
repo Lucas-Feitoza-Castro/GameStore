@@ -1,12 +1,58 @@
 html {
     background-color: #005792;
 }
-
+#tudao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
 #tudo {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
     width: 1200px;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    align-items: center;
+}
+
+.logo {
+    width: 240px;
+    height: 80px;
+}
+
+.rodape {
+    width: 1200px;
+    height: 210px;
+    margin-top: 50px;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape2 {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+#produto{
+    display: flex;
+    background-color: #F6F6E9;
+    margin-top: 10px;
+    border: solid #FD5F00;
 }
 .img_produtos{
     display: flex;
@@ -33,10 +79,78 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    color: #13334C;
+    background-color: #F6F6E9;
 }
 #comprar{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     color: #FD5F00;
+}
+
+.Pagamento {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.pag2 {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.Certificados {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.cer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.Segurança {
+    width: 95px;
+    height: 90px;
+}
+
+.cartoes {
+    width: 60px;
+    height: 30px;
+}
+
+.rodape3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    align-content: space-around;
+}
+
+.logo2 {
+    width: 200px;
+    height: 60px;
+}
+
+#tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

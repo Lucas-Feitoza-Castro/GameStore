@@ -1,13 +1,56 @@
 html {
     background-color: #005792;
 }
-#tudo{
+#tudao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+#tudo {
     display: flex;
     width: 1200px;
     height: 700px;
     flex-wrap: nowrap;
     align-content: flex-start;
 }
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    align-items: center;
+}
+
+.logo {
+    width: 240px;
+    height: 80px;
+}
+
+.rodape {
+    width: 1200px;
+    height: 210px;
+    margin-top: 50px;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape2 {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
 #login {
     background-color: #F6F6E9;
     border: solid #FD5F00;
@@ -23,19 +66,79 @@ html {
     height: 640px;
 }
 
-#Facebook{
+#Facebook {
     margin-right: 10px;
     font-size: 50px;
 }
 
-#Google{
+#Google {
     font-size: 50px;
 }
 
-h1{
+h1 {
     color: #FD5F00;
 }
 
-h2{
+h2 {
     color: #FD5F00;
+}
+
+.Pagamento {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.pag2 {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.Certificados {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.cer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.Segurança {
+    width: 95px;
+    height: 90px;
+}
+
+.cartoes {
+    width: 60px;
+    height: 30px;
+}
+
+.rodape3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    align-content: space-around;
+}
+
+.logo2 {
+    width: 200px;
+    height: 60px;
 }
