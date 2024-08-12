@@ -1,0 +1,205 @@
+html{
+    background-color: #005792;
+}
+
+#linha_1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+   
+}
+
+#meu_pedido{
+background-color: #F6F6E9;
+color: #13334C;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+width: 500px;
+margin-right: 50px;
+}
+
+#desc_preco{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: solid #005792;
+}
+.desc_preco2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: dotted #005792;
+}
+
+#resumo{
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    width: 300px;
+    padding: 10px;
+    color: #13334C;
+}
+
+.res_2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#total{
+    border-top: solid #FD5F00;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #13334C;
+}
+#linha_2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#coluna{
+    background-color: #F6F6E9;
+    width: 500px;
+    height: 290px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    color: #13334C;
+}
+
+#endereco2{
+    border-top: solid #005792 ;
+}
+
+#desconto{
+    border-bottom: solid #005792 ;
+}
+
+#pagamento{
+    margin-top: 10px;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+#finalizar{
+   margin-left: 70px;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#sub_cabecalho{
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 240px;
+    height: 80px;
+}
+
+.rodape {
+    width: 1200px;
+    height: 210px;
+    margin-top: 50px;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape2 {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.Pagamento {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.pag2 {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.Certificados {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.cer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.Segurança {
+    width: 95px;
+    height: 90px;
+}
+
+.cartoes {
+    width: 60px;
+    height: 30px;
+}
+
+.rodape3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    align-content: space-around;
+}
+
+.logo2 {
+    width: 200px;
+    height: 60px;
+}
+
+#tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
