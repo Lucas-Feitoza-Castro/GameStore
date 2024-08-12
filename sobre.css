@@ -1,40 +1,167 @@
-html{
+html {
     background-color: #005792;
 }
 
-h1{
+h1 {
     color: #FD5F00;
 }
 
-h2{
+h2 {
     color: #FD5F00;
 }
 
-p{
+p {
     color: #13334C;
 }
-#conteudo{
+
+#sobre_loja {
+    width: 1200px;
+    height: 200px;
+    background-color: #F6F6E9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#conteudo {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     background-color: #F6F6E9;
+    width: 1200px;
+    height: 200px;
 }
-img{
+
+img {
     width: 120px;
     height: 100px;
 }
-#Desenvolvimento{
+
+#Desenvolvimento {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
     background-color: #F6F6E9;
+    width: 1200px;
+    height: 100px;
 }
 
-.Desenvolvedor{
+.Desenvolvedor {
     display: flex;
-   flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
-.cont_dev{
+.cont_dev {
     margin-left: 10px;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    align-items: center;
+}
+
+#sub_cabecalho {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 240px;
+    height: 80px;
+}
+
+.rodape {
+    width: 1200px;
+    height: 210px;
+    margin-top: 50px;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape2 {
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    display: flex;
+    margin-top: 50px;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.Pagamento {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.pag2 {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.Certificados {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.cer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.Segurança {
+    width: 95px;
+    height: 90px;
+}
+
+.cartoes {
+    width: 60px;
+    height: 30px;
+}
+
+.rodape3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F6E9;
+    border: solid #FD5F00;
+    margin-top: 50px;
+    width: 1200px;
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    align-content: space-around;
+}
+
+.logo2 {
+    width: 200px;
+    height: 60px;
+}
+
+#tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
